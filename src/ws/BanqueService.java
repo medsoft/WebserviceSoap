@@ -8,6 +8,8 @@ import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+
 @WebService(serviceName = "BanqueWS")
 public class BanqueService {
     @WebMethod(operationName = "conversionEuroTeFR")
